@@ -1,5 +1,5 @@
 # authenticate(Basic)
-AuthUserFile https://korenanda.github.io/.../.htpasswd
+AuthUserFile ./.htpasswd
 AuthGroupFile /dev/null
 AuthName "Please enter your ID and password"
 AuthType Basic
