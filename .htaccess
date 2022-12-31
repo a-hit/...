@@ -1,0 +1,6 @@
+# authenticate(Basic)
+AuthUserFile ここにhtpasswdファイルの絶対パスを指定
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user
