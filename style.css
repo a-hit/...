@@ -1,0 +1,76 @@
+body {
+  background: black;
+}
+#blocks {
+  margin: 0 auto;
+  max-width: 445px;
+  background: black;
+  aspect-ratio: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.block {
+  width: 46%;
+  height: 46%;
+  margin: 5px;
+  border-radius: 15px;
+}
+.block:active {
+  opacity: 1 !important;
+}
+
+#red {
+  background: #ee0077;
+  box-shadow: 0 0 50px #ee0077;
+}
+#blue {
+  background: #21cbff;
+  box-shadow: 0 0 50px #21cbff;
+}
+#yellow {
+  background: #eded00;
+  box-shadow: 0 0 50px #eded00;
+}
+#green {
+  background: #00ed00;
+  box-shadow: 0 0 50px#00ED00;
+}
+
+#btn {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 20%;
+  cursor: pointer;
+}
+#btn p {
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  margin-top: 50px;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 32px;
+  letter-spacing: 3px;
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  text-shadow: 0 0 10px #ffccff, 0 0 20px #ffccff, 0 0 40px #ffccff,
+    0 0 80px #ffccff, 0 0 120px #ffccff, 0 0 160px #ffccff;
+  box-shadow: inset 0 0 2px 2px #ffccff, 0 0 4px 4px #ffccff;
+  opacity: 0.9;
+}
+#btn p:hover {
+  background: #444444;
+  box-shadow: inset 0 0 3px 3px #ffeeff, 0 0 6px 6px #ffeeff;
+  opacity: 1;
+}
+@media screen and (max-width:600px) {
+  #btn p {
+    font-size: 24px;
+  }
+}
